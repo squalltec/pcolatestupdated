@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/app.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "main-holder visa-pg">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="img/logo.png" />
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mx-auto mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+
+                  <div class = "navbar-contact-info">
+                    <img src = "img/header-contact-img.png">
+                  </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="banner" style="background: url('img/visa/visabg.png') center/cover no-repeat;">
+        <div class="container">
+            <div class="inner_content">
+                <form>
+                    <div>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Country</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>   
+                    </div>
+                    <div>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select City</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>   
+                    </div>
+                    <div>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select Event</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>   
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="searchbox">
+        <div class="container">
+            <div class="search_image_ads">
+                <a href="">
+                    <img src="img/searchad1.png" alt="">
+                </a>
+                <a href="">
+                    <img src="img/searchad1.png" alt="">
+                </a>
+            </div>
+            <div class="search_inner_box">
+                <div class="ads_img_contaainer">
+                    <img src="img/searchad1.png" alt="">
+                </div>
+                <div class="form_field_group">
+                    <div class="nav_forsearch">
+                        <ul class="nav nav-pills form_item_slider mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Event</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Hotels</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Transfer</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-other-tab" data-bs-toggle="pill" data-bs-target="#pills-other" type="button" role="tab" aria-controls="pills-other" aria-selected="false">Visa</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-tour-tab" data-bs-toggle="pill" data-bs-target="#pills-tour" type="button" role="tab" aria-controls="pills-tour" aria-selected="false">Tour</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-restro-tab" data-bs-toggle="pill" data-bs-target="#pills-restro" type="button" role="tab" aria-controls="pills-restro" aria-selected="false">Restaurant</button>
+                              </li>
+                          </ul>
+                    </div>
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <form class="row g-3">
+                                <div class="col-md-4">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Select Country</option>
+                                        <option>Nepal</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Select City</option>
+                                        <option>...</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Hotel Name</option>
+                                        <option>...</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Hotel Star rating</option>
+                                        <option>Nepal</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Select a Room</option>
+                                        <option>...</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>No.of Travelers</option>
+                                        <option>...</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-2 hide-empty-col"></div>
+                                <div class="col-md-4">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Check In</option>
+                                        <option>...</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Check out</option>
+                                        <option>...</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-2"></div>
+                                <div class="col-12 text-center">
+                                  <a href="https://fcoconnect.vercel.app/hotelsearch.html" class="btn btn-primary btn-main">Search Hotel</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          Default radio
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                          Default checked radio
+                                        </label>
+                                      </div>
+                                </div>
+                               
+                                <div class="col-md-6">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Select a Room</option>
+                                        <option>...</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>No.of Travelers</option>
+                                        <option>...</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Check In</option>
+                                        <option>...</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Check out</option>
+                                        <option>...</option>
+                                      </select>
+                                </div>
+                                <div class="col-12 text-center">
+                                  <!-- <button  class="">Search Hotel</button> -->
+                                  <a href="https://fcoconnect.vercel.app/hotelsearch.html" class="btn btn-primary btn-main">Search Hotel</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8">
+                                    <form class="row g-3">
+                                        <div class="offset-md-2 col-md-4">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  One Way
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                  Round Trip
+                                                </label>
+                                              </div>
+                                        </div>
+                                       
+                                        <div class="col-md-6">
+                                            <select id="inputState" class="form-select">
+                                                <option selected>Pick Up From</option>
+                                                <option>...</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select id="inputState" class="form-select">
+                                                <option selected>Drop Off To</option>
+                                                <option>...</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="date" class="form-control" placeholder="name@example.com">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="date" class="form-control" placeholder="name@example.com">
+                                        </div>
+                                        <div class="col-12 text-center">
+                                          <!-- <button  class="">Search Hotel</button> -->
+                                          <a href="http://127.0.0.1:5500/transferseach.html" class="btn btn-primary btn-main">Search Transfer</a>
+                                        </div>
+                                      </form>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade active show" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab">
+                            <form class="row g-3">
+                                <div class = "row justify-content-center mt-3">
+                                    <div class="col-sm-3 d-flex justify-content-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="" id="">
+                                            <label class="form-check-label" for="">Tourist</label>
+                                          </div>
+                                    </div>    
+                                    <div class = "col-sm-3 mt-3 mt-sm-0 d-flex justify-content-center">
+                                        <div class = "form-check">
+                                            <input class = "form-check-input" type = "radio" name = "" id = "">
+                                            <label class = "form-check-label" for = "">Business</label>
+                                        </div>
+                                    </div>
+                                    <div class = "col-sm-3 mt-3 mt-sm-0 d-flex justify-content-center">
+                                        <div class = "form-check">
+                                            <input class = "form-check-input" type = "radio" name = "" id = "">
+                                            <label class = "form-check-label" for = "">Family</label> 
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class = "row g-3">
+                                    <div class="col-md-4">
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Visa Type</option>
+                                            <option>Nepal</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <select id="inputState" class="form-select">
+                                            <option selected>No. Pax:</option>
+                                            <option>...</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Adults</option>
+                                            <option>...</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type = "date" placeholder="Arrival Date" class = "form-control">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type = "date" placeholder="Arrival Date" class = "form-control">
+                                    </div>
+                                    <div class="col-md-4">
+                                      <a href="https://fcoconnect.vercel.app/hotelsearch.html" class="btn btn-primary btn-main w-100 mt-0">Apply Visa</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="pills-tour" role="tabpanel" aria-labelledby="pills-tour-tab">
+                            <form class = "row g-3 justify-content-between">
+                                <div class = "col-md-4">
+                                    <select id = "" class = "form-select">
+                                        <option selected>Pickup From</option>
+                                        <option></option>
+                                    </select>
+                                </div>
+
+                                <div class = "col-md-4">
+                                    <input type = "date" class = "form-control">
+                                </div>
+
+                                <div class = "col-md-4">
+                                    <section id = "" class = "form-select">
+                                        <option selected>Adults</option>
+                                        <option value=""></option> 
+                                    </section>
+                                </div>
+
+                                <div class = "col-md-4">
+                                    <section id = "" class = "form-select">
+                                        <option selected>Children</option>
+                                        <option value=""></option> 
+                                    </section>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <a href="https://fcoconnect.vercel.app/hotelsearch.html" class="btn btn-primary btn-main w-100 mt-0">Search</a>
+                                  </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="pills-restro" role="tabpanel" aria-labelledby="pills-restro-tab">Restaurant</div>
+                      </div>
+                </div>
+                <div class="ads_img_contaainer">
+                    <img src="img/searchad1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="places py-5">
+        <div class="container px-0">
+            <div class = "section-title">
+                <h5>Place that you loved in</h5>
+                <h3>United Arab Emirates</h3>
+            </div>
+            <ul class="placesSlides places-list owl-carousel list-unstyled">
+                <li class="places-item">
+                    <img src="img/visa/places-img-1.png" alt="">
+                    <p class = "places-item-name text-center">Dhow Cruise Dubai</p>
+                </li>
+                <li class="places-item">
+                    <img src="img/visa/places-img-2.png" alt="">
+                    <p class = "places-item-name text-center">Dubai City</p>
+                </li>
+                <li class="places-item">
+                    <img src="img/visa/places-img-3.png" alt="">
+                    <p class = "places-item-name text-center">Desert Safari</p>
+                </li>
+                <li class="places-item">
+                    <img src="img/visa/places-img-1.png" alt="">
+                    <p class = "places-item-name text-center">Dhow Cruise Dubai</p>
+                </li>
+                <li class="places-item">
+                    <img src="img/visa/places-img-2.png" alt="">
+                    <p class = "places-item-name text-center">Dubai City</p>
+                </li>
+                <li class="places-item">
+                    <img src="img/visa/places-img-3.png" alt="">
+                    <p class = "places-item-name text-center">Desert Safari</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+  
+    <section class="footer">
+        <div class="mainfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 px-0 mb-4 mb-lg-0">
+                        <div class="footer_col about">
+                            <h2>About</h2>
+                            <p class = "mb-0">In 2009, founder & CEO Dilan Fernando saw the need for a simpler more streamlined, secure and optimal way for Congress organizers to book and manage events. His vision was a simple but powerful one to create a tool for professionals to access, manage, and share event information from anywhere in real time. Not a novel concept today, but it was for the early 2000’s. In those days, no one was using 100% web-based software or “cloud based” as we know it today.
+                                PCO Connect not only survived the “dot com” burst of the early 2000s but steadily grew, Today, PCO Connect has serves over 100,000 customers and companies.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 mb-4 mb-lg-0">
+                        <div class="footer_col m-0">
+                            <h2>Testimonials</h2>
+                            <div class = "footerslides owl-carousel owl-theme">
+                                <div class = "footerslides-item">
+                                    <img src="img/quote.png" alt="">
+                                    <p class = "mb-4">Excellent pre- and during-event results. Well-planned customer service solved all problems. I'd recommend the Services to any event organizer in Dubai or the Gulf Region. Thanks for attending.</p>
+                                    <hr>
+                                    <div class = "footerslides-item-info mt-4">
+                                        <h6>Drew Donavan</h6>
+                                        <p class = "mb-0">International Telecommuication Union Head, Safety and Security Division</p>
+                                    </div>
+                                </div>
+                                <div class = "footerslides-item">
+                                    <img src="img/quote.png" alt="">
+                                    <p>Excellent pre- and during-event results. Well-planned customer service solved all problems. I'd recommend the Services to any event organizer in Dubai or the Gulf Region. Thanks for attending.</p>
+                                    <hr>
+                                    <div class = "footerslides-item-info">
+                                        <h6>Drew Donavan</h6>
+                                        <p class = "mb-0">International Telecommuication Union Head, Safety and Security Division</p>
+                                    </div>
+                                </div>
+                                <div class = "footerslides-item">
+                                    <img src="img/quote.png" alt="">
+                                    <p>Excellent pre- and during-event results. Well-planned customer service solved all problems. I'd recommend the Services to any event organizer in Dubai or the Gulf Region. Thanks for attending.</p>
+                                    <hr>
+                                    <div class = "footerslides-item-info">
+                                        <h6>Drew Donavan</h6>
+                                        <p class = "mb-0">International Telecommuication Union Head, Safety and Security Division</p>
+                                    </div>
+                                </div>
+                                <div class = "footerslides-item">
+                                    <img src="img/quote.png" alt="">
+                                    <p>Excellent pre- and during-event results. Well-planned customer service solved all problems. I'd recommend the Services to any event organizer in Dubai or the Gulf Region. Thanks for attending.</p>
+                                    <hr>
+                                    <div class = "footerslides-item-info">
+                                        <h6>Drew Donavan</h6>
+                                        <p class = "mb-0">International Telecommuication Union Head, Safety and Security Division</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 m-0 px-0">
+                        <div class="footer_col info m-0">
+                            <h2>Connect with us</h2>
+                            <ul class="socialmedia">
+                                <li>
+                                    <a href="">
+                                        <img src="img/social/facebook.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/social/linkedin.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/social/twitter.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/social/instagram.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <h6 class="address_title">Travel Synergies Tourism LLC</h6>
+                            <ul class="addresses">
+                                <li>
+                                    Al Nassima Towers
+                                </li>
+                                <li>Sheikh Zayed Road
+                                </li>
+                                <li>Dubai, UAE</li>
+                            </ul>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quickLinks">
+            <div class="container px-0">
+                <nav class="nav">
+                    <a class="nav-link active" aria-current="page" href="#">About us</a>
+                    <a class="nav-link" href="#">Add your property</a>
+                    <a class="nav-link" href="#">customer Service</a>
+                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="#">Careers</a>
+                    <a class="nav-link" href="#">Terms & Conditions</a>
+                    <a class="nav-link" href="#">Privacy and Cookies</a>
+                </nav>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copylayout">
+                    <div class="copy_text">Copyright 2022 PCO Connect | Design and Developed By</div>
+                    <div class="copy_text">A Sub Division Of</div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

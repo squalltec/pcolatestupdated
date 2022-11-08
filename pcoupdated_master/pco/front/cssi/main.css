@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin:0px;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #bf1e2e;
+}
+.navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 20px !important;
+    border-left: 2px solid rgb(0 0 0 / 50%);
+    line-height: 16px;
+}
+.bg-banner{
+    background-image: url("../africabanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100% !important;
+    height:100% !important;
+}
+section.search .nav-pills .nav-link{
+    border-radius: 0;
+    border: 2px solid #bf1e2e;
+    border-left-width: 0px;
+}
+section.search .nav-pills .nav-item:first-of-type .nav-link{
+    border-left-width: 2px;
+}
+section.search .nav-pills .nav-link{
+    color: #222;
+    font-weight: 600;
+}
+section.search .nav-pills .nav-link.active{
+    background-color: #bf1e2e;
+    border-color: #bf1e2e;
+    color: #fff;
+}
+section.search div.bg-light{
+    background-color: #eee !important;
+}
+.btn:focus,
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn{
+    background-color: #bf1e2e;
+    border-color: #bf1e2e;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #000;
+    border-color: #000;
+}
+section.grid h2,
+footer h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #bf1e2e;
+    font-weight: 600;
+}
+section.grid h5{
+    font-size: 18px;
+}
+section.grid p,
+footer p,
+section.copyrights p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #858585;
+}
+footer.widgets{
+    background-color: #eee;
+    border-top: 4px solid #bf1e2e;
+}
+footer.widgets h2{
+    border-bottom: 1px solid #858585;
+    padding-bottom: 10px;
+}
+footer.widgets .social-links{
+    background-color: #bf1e2e;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+footer.widgets .social-links:hover{
+    background-color: #000;
+}
+section.cta-links{
+    background-color: #bf1e2e;
+}
+section.cta-links .link-item{
+    color: #fff;
+    padding-right: 15px;
+}
+@media (max-width:992px) {
+    .navbar-nav .nav-link{
+        border: 0px;
+        padding: 15px !important;
+    }    
+}
+@media (max-width:576px) {
+    .scroll-mobile{
+        white-space: nowrap;
+        overflow-x: auto;
+      }
+      .scroll-mobile ul{
+        display: inline-table !important;
+      }
+      .scroll-mobile ul li.nav-item{
+        display: inline-block;
+        text-align: center;
+        background-color: initial;
+      }
+}

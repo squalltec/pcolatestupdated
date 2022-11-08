@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/app.css">
+    <title>Transfer Search</title>
+</head>
+<body>
+    <div class = "main-holder tours-search-pg">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="img/logo.png" />
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mx-auto mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+
+                  <div class = "navbar-contact-info">
+                    <img src = "img/header-contact-img.png">
+                  </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="page_title">
+        <div class="container">
+            <h1>Transfer Search</h1>
+        </div>
+    </section>
+    
+    <section class="tours-search mt-5">
+        <div class="container px-3">
+            <div class="ts_title">
+                <h2>Tours</h2>
+                <span class = "text-black-50">All prices include VAT, fees & Tip.</span>
+            </div>
+
+            <div class = "tours-search-block-1 p-3 p-lg-5 my-4">
+                <h5>Featured Tours</h5>
+                <div class = "tours-search-item row my-3">
+                    <div class = "col-lg-7">
+                        <div class = "row align-items-center">
+                            <div class = "tours-search-item-img col-md-6">
+                                <img src = "img/tours/tours-search-img-1.png" alt = "" class = "img-fluid">
+                            </div>
+                            <div class = "tours-search-item-content col-md-6 mt-4 mt-lg-0">
+                                <h6>The Ritz Carlton Dubai</h6>
+                                <span class = "d-block">Daily except Tuesdays, Half day, morning</p>
+                                <p class = "mb-0">Ferrari World Abu Dhabi is the world’s first Ferrari-branded theme park and the largest attraction of its kind. ...More info</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-lg-5 mt-3 mt-md-5 mt-lg-0 d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-end text-lg-end pe-lg-5">
+                        <p class = "price-tag">AUD 150 <span class = "d-block">per person</span></p>
+                        <a href = "#" class = "btn theme_btn btn-outline-secondary bg-transparent mt-2">Select</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "tours-search-block-2 py-5 d-flex flex-column">
+                <div class = "tours-search-block-2-top mb-5 row align-items-center justify-content-between">
+                    <h3 class = "col-md-7">More Place to tour</h3>
+                    <div class = "col-md-5">
+                        <form>
+                            <div class = "d-flex align-items-center justify-content-md-end mt-3 mt-md-0">
+                                <label class = "col-form-label pe-3">Filter By</label>
+                                <div>
+                                    <select class = "form-select">
+                                        <option selected>Recommended</option>
+                                        <option>Popularity</option>
+                                        <option>Price</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class = "tours-search-cards row g-5">
+                    <div class = "col-md-6 col-lg-4">
+                        <div class = "tours-card card">
+                            <img src="img/tours/places-img-1.png" class="card-img-top" alt="...">
+                            <div class="card-body px-4">
+                                <h5 class="card-title mt-3">The Ritz Carlton Dubai</h5>
+                                <h6 class = "card-sub-title">Daily except Tuesday, Half day, morning</h6>
+                                <p class="card-text">Ferrari World Abu Dhabi is the world’s first Ferrari-branded theme park and the largest attraction of its kind. ...More info</p>
+
+                                <div class = "card-body-bottom d-flex align-items-center justify-content-between mb-2 mt-4">
+                                    <p class = "price-tag d-flex align-items-center mb-0">$ 150 <span class = "ms-2">per person</span></p>
+                                    <a href = "#" class = "btn btn-outline-secondary theme_btn_sm bg-white">Select</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4">
+                        <div class = "tours-card card">
+                            <img src="img/tours/places-img-2.png" class="card-img-top" alt="...">
+                            <div class="card-body px-4">
+                                <h5 class="card-title mt-3">The Ritz Carlton Dubai</h5>
+                                <h6 class = "card-sub-title">Daily except Tuesday, Half day, morning</h6>
+                                <p class="card-text mt-3">Ferrari World Abu Dhabi is the world’s first Ferrari-branded theme park and the largest attraction of its kind. ...More info</p>
+
+                                <div class = "card-body-bottom d-flex align-items-center justify-content-between mb-2 mt-4">
+                                    <p class = "price-tag d-flex align-items-center mb-0">$ 150 <span class = "ms-2">per person</span></p>
+                                    <a href = "#" class = "btn btn-outline-secondary theme_btn_sm bg-white">Select</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4">
+                        <div class = "tours-card card">
+                            <img src="img/tours/places-img-3.png" class="card-img-top" alt="...">
+                            <div class="card-body px-4">
+                                <h5 class="card-title mt-3">The Ritz Carlton Dubai</h5>
+                                <h6 class = "card-sub-title">Daily except Tuesday, Half day, morning</h6>
+                                <p class="card-text mt-3">Ferrari World Abu Dhabi is the world’s first Ferrari-branded theme park and the largest attraction of its kind. ...More info</p>
+
+                                <div class = "card-body-bottom d-flex align-items-center justify-content-between mb-2 mt-4">
+                                    <p class = "price-tag d-flex align-items-center mb-0">$ 150 <span class = "ms-2">per person</span></p>
+                                    <a href = "#" class = "btn btn-outline-secondary theme_btn_sm bg-white">Select</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4">
+                        <div class = "tours-card card">
+                            <img src="img/tours/places-img-1.png" class="card-img-top" alt="...">
+                            <div class="card-body px-4">
+                                <h5 class="card-title mt-3">The Ritz Carlton Dubai</h5>
+                                <h6 class = "card-sub-title">Daily except Tuesday, Half day, morning</h6>
+                                <p class="card-text mt-3">Ferrari World Abu Dhabi is the world’s first Ferrari-branded theme park and the largest attraction of its kind. ...More info</p>
+
+                                <div class = "card-body-bottom d-flex align-items-center justify-content-between mb-2 mt-4">
+                                    <p class = "price-tag d-flex align-items-center mb-0">$ 150 <span class = "ms-2">per person</span></p>
+                                    <a href = "#" class = "btn btn-outline-secondary theme_btn_sm bg-white">Select</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4">
+                        <div class = "tours-card card">
+                            <img src="img/tours/places-img-2.png" class="card-img-top" alt="...">
+                            <div class="card-body px-4">
+                                <h5 class="card-title mt-3">The Ritz Carlton Dubai</h5>
+                                <h6 class = "card-sub-title">Daily except Tuesday, Half day, morning</h6>
+                                <p class="card-text mt-3">Ferrari World Abu Dhabi is the world’s first Ferrari-branded theme park and the largest attraction of its kind. ...More info</p>
+
+                                <div class = "card-body-bottom d-flex align-items-center justify-content-between mb-2 mt-4">
+                                    <p class = "price-tag d-flex align-items-center mb-0">$ 150 <span class = "ms-2">per person</span></p>
+                                    <a href = "#" class = "btn btn-outline-secondary theme_btn_sm bg-white">Select</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4">
+                        <div class = "tours-card card">
+                            <img src="img/tours/places-img-3.png" class="card-img-top" alt="...">
+                            <div class="card-body px-4">
+                                <h5 class="card-title mt-3">The Ritz Carlton Dubai</h5>
+                                <h6 class = "card-sub-title">Daily except Tuesday, Half day, morning</h6>
+                                <p class="card-text mt-3">Ferrari World Abu Dhabi is the world’s first Ferrari-branded theme park and the largest attraction of its kind. ...More info</p>
+
+                                <div class = "card-body-bottom d-flex align-items-center justify-content-between mb-2 mt-4">
+                                    <p class = "price-tag d-flex align-items-center mb-0">$ 150 <span class = "ms-2">per person</span></p>
+                                    <a href = "#" class = "btn btn-outline-secondary theme_btn_sm bg-white">Select</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination_wrap mt-5">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                          <li class="page-item">
+                            <a class="page-link" href="hotelsearch.html" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                            </a>
+                          </li>
+                          <li class="page-item active"><a class="page-link" href="hotelsearch.html">1</a></li>
+                          <li class="page-item"><a class="page-link" href="hotelsearch2.html">2</a></li>
+                          <li class="page-item"><a class="page-link" href="hotelsearch3.html">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="hotelsearch2.html" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                            </a>
+                          </li>
+                        </ul>
+                    </nav>
+                </div>
+                <a href = "#" class = "btn theme_btn active btn-primary align-self-center mt-4">Continue</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="mainfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 px-0 mb-4 mb-lg-0">
+                        <div class="footer_col about">
+                            <h2>About</h2>
+                            <p>In 2009, founder & CEO Dilan Fernando saw the need for a simpler more streamlined, secure and optimal way for Congress organizers to book and manage events. His vision was a simple but powerful one to create a tool for professionals to access, manage, and share event information from anywhere in real time. Not a novel concept today, but it was for the early 2000’s. In those days, no one was using 100% web-based software or “cloud based” as we know it today.
+                                PCO Connect not only survived the “dot com” burst of the early 2000s but steadily grew, Today, PCO Connect has serves over 100,000 customers and companies.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 mb-4 mb-lg-0">
+                        <div class="footer_col m-0">
+                            <h2>Testinomials</h2>
+                            <div class = "footerslides owl-carousel owl-theme">
+                                <div class = "footerslides-item">
+                                    <img src="img/quote.png" alt="">
+                                    <p class = "mb-4">Excellent pre- and during-event results. Well-planned customer service solved all problems. I'd recommend the Services to any event organizer in Dubai or the Gulf Region. Thanks for attending.</p>
+                                    <hr>
+                                    <div class = "footerslides-item-info mt-4">
+                                        <h6>Drew Donavan</h6>
+                                        <p class = "mb-0">International Telecommuication Union Head, Safety and Security Division</p>
+                                    </div>
+                                </div>
+                                <div class = "footerslides-item">
+                                    <img src="img/quote.png" alt="">
+                                    <p>Excellent pre- and during-event results. Well-planned customer service solved all problems. I'd recommend the Services to any event organizer in Dubai or the Gulf Region. Thanks for attending.</p>
+                                    <hr>
+                                    <div class = "footerslides-item-info">
+                                        <h6>Drew Donavan</h6>
+                                        <p class = "mb-0">International Telecommuication Union Head, Safety and Security Division</p>
+                                    </div>
+                                </div>
+                                <div class = "footerslides-item">
+                                    <img src="img/quote.png" alt="">
+                                    <p>Excellent pre- and during-event results. Well-planned customer service solved all problems. I'd recommend the Services to any event organizer in Dubai or the Gulf Region. Thanks for attending.</p>
+                                    <hr>
+                                    <div class = "footerslides-item-info">
+                                        <h6>Drew Donavan</h6>
+                                        <p class = "mb-0">International Telecommuication Union Head, Safety and Security Division</p>
+                                    </div>
+                                </div>
+                                <div class = "footerslides-item">
+                                    <img src="img/quote.png" alt="">
+                                    <p>Excellent pre- and during-event results. Well-planned customer service solved all problems. I'd recommend the Services to any event organizer in Dubai or the Gulf Region. Thanks for attending.</p>
+                                    <hr>
+                                    <div class = "footerslides-item-info">
+                                        <h6>Drew Donavan</h6>
+                                        <p class = "mb-0">International Telecommuication Union Head, Safety and Security Division</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 m-0 px-0">
+                        <div class="footer_col info m-0">
+                            <h2>Connect with us</h2>
+                            <ul class="socialmedia">
+                                <li>
+                                    <a href="">
+                                        <img src="img/social/facebook.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/social/linkedin.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/social/twitter.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/social/instagram.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <h6 class="address_title">Travel Synergies Tourism LLC</h6>
+                            <ul class="addresses">
+                                <li>
+                                    Al Nassima Towers
+                                </li>
+                                <li>Sheikh Zayed Road
+                                </li>
+                                <li>Dubai, UAE</li>
+                            </ul>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quickLinks">
+            <div class="container px-0">
+                <nav class="nav">
+                    <a class="nav-link active" aria-current="page" href="#">About us</a>
+                    <a class="nav-link" href="#">Add your property</a>
+                    <a class="nav-link" href="#">customer Service</a>
+                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="#">Careers</a>
+                    <a class="nav-link" href="#">Terms & Conditions</a>
+                    <a class="nav-link" href="#">Privacy and Cookies</a>
+                </nav>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copylayout">
+                    <div class="copy_text">Copyright 2022 PCO Connect | Design and Developed By</div>
+                    <div class="copy_text">A Sub Division Of</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+.upcoming-events-container { position:relative;}
+.upcoming-events-container .carousel-pagination { position:absolute; top:5px; right:0;}
+.upcoming-events-container ul { margin: 0; padding: 0; list-style: none; display: block; }
+.upcoming-events-container li { width: 280px; height: auto; padding: 0; display: block; float: left; font-size:18px;}
+.upcoming-events-container li:first-child {left; border-left:0; }
+.prev { float: left; margin-right: 1px; padding:3px 6px; background:#666; text-decoration:none; color:#CCC; }
+.prev:hover{ color:#FFF;background:#bf1e2e}
+.next { float: right; margin-left: 1px; padding:3px 6px; background:#666; text-decoration:none; color:#CCC; }
+.next:hover { color:#FFF;background:#bf1e2e}
+.pager { float: left; width: 300px; text-align: center;}
+.pager a { margin: 0 5px; text-decoration: none;}
+.pager a.selected { text-decoration: underline;}
+.timer { background-color: #999; height: 6px; width: 0px; }

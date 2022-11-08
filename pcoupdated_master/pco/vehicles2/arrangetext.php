@@ -1,0 +1,1 @@
+`adults`, `children`, `balcony`, `ac`, `attachedbath`, `flatscreen`, `coffeemachine`, `minibar`, `freewifi`, `toiletries`, `bathrobe`, `safe`, `bidae`, `desk`, `slippers`, `iron`, `hairdryer`, `kettle`, `alarm`, `wardrobe`, `closet`, `sanatizer`, `sofabed`, `streaming`, `source`, `bath`, `flooring`, `towels`, `linen`, `sockets`, `disablefriendly`, `disablerooms`

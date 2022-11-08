@@ -1,0 +1,116 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+.text{
+    color: #000;
+    font-weight: 700;
+    font-style: normal;
+}
+.fs-16{
+    font-size: 16px;
+    line-height: 27px;
+}
+.fs-18{
+    font-size: 18px;
+    line-height: 35px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex-c{
+    justify-content: center;
+}
+.flex-sb{
+    justify-content: space-between;
+}
+.grid{
+    display: grid;
+}
+
+.main-wrapper{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.info-head{
+    font-size: 16px!important;
+}
+.invo-head .text{
+    opacity: 0.5;
+}
+.info-head-btm{
+    margin-top: 20px;
+}
+.invo-head .invo-head-rht span{
+    display: block;
+    text-align: right;
+}
+.invo-title{
+    margin-bottom: 20px;
+}
+.invo-sub-title{
+    margin-bottom: 20px;
+}
+
+.invo-title h5{
+    color: #dc3545;
+    font-weight: 700;
+    font-size: 24px!important;
+    line-height: 28px; 
+}
+.invo-sub-title h6{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 70px;
+    position: relative;
+}
+.invo-sub-title h6::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: calc(100% - 10px);
+    height: 2px;
+    width: 28px;
+    background-color: #dc3545;
+}
+.invo-item h6{
+    color: #000;
+    margin-bottom: 10px;
+}
+.invo-item p{
+    opacity: 0.5;
+}
+.invo-block-1{
+    margin-top: 30px;
+}
+.invo-block-1 .grid, .invo-block-2 .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 15px;
+}
+.invo-block-1{
+    padding-bottom: 35px;
+    border-bottom: 1px solid #00000066;
+}
+.invo-block-2{
+    margin-top: 30px;
+}
+.invo-block-2 .invo-sub-title:nth-last-of-type(2){
+    margin-top: 20px;
+}
+.invo-block-2 .invo-items:last-of-type{
+    width: 66.666%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bottom-text{
+    margin-top: 40px;
+}
+.bottom-text span{
+    color: #dc3545;
+}
